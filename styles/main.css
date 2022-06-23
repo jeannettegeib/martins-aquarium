@@ -1,0 +1,97 @@
+
+header{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Reflection_in_water%2C_glare_on_water._img_036.jpg/1280px-Reflection_in_water%2C_glare_on_water._img_036.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px rgb(173,216,230), 0 0 5px rgb(49, 85, 102);
+} 
+ h1 {
+    text-align: center;
+    font-size: 5em;  
+}
+.header-tagline{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center; 
+    padding: 0 0 25px 0 ; 
+}
+body {
+    background-color: rgb(173,216,230,0.2);
+    font-family: 'Quicksand', sans-serif;  
+    color: rgb(49, 85, 102);
+
+  }
+main{
+    display: flex;
+    padding:0px 15px;
+}
+#Fish-and-Locations{
+    max-width: 75%;
+    padding: 25px;
+}
+.fishlist{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.fishlist--item{
+     display: flex;
+     padding: 20px 150px;
+ }
+ .fishlist--pic{
+   max-width: 250px;
+   max-height: 200px;  
+ }
+ .fishlist--specs{
+    padding: 15px;
+    color: rgb(49, 85, 102);
+    font-size: 1.2em;
+ }
+ aside{
+    border: 5px solid #b4cee7;
+    border-radius: 20px;
+    padding: 0px 30px;
+    border-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Reflection_in_water%2C_glare_on_water._img_036.jpg/1280px-Reflection_in_water%2C_glare_on_water._img_036.jpg") 30 round;
+
+ }
+ h2{
+    color:#2b7993;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 1px 1px 1px rgb(49, 85, 102);
+ }
+ img{
+    padding: 3px;
+    border-radius: 15px;
+ }
+ #tanktips--tips-list{
+    color: rgb(49, 85, 102);
+ }
+ .locationlist--bodyOfWater{
+    font-family: 'Sacramento', cursive; 
+    font-size: 50px;
+    color:#2b7993;
+    margin-top: 1em;
+ }
+ .hr1 {
+    height: 10px;
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Reflection_in_water%2C_glare_on_water._img_036.jpg/1280px-Reflection_in_water%2C_glare_on_water._img_036.jpg") no-repeat center;
+    border: none;
+    border-radius: 10px;
+  }
+  .locationlist--location{
+    font-size: 1.6em;
+    margin-left: 2em;
+    margin-top: 0em;
+  }
+  .locationList--image{
+      width: 350px;
+  }
+  .locationlist--quote{
+    font-family: 'Sacramento', cursive;
+    font-size: 28px;
+    color:#2b7993;
+    margin: 10px 50px;
+  }
